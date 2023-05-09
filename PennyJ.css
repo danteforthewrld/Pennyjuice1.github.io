@@ -1,0 +1,1163 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    background-color: black;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header {
+    background-color: #A4D066;
+    position: absolute;
+    height: 40%;
+    width: 100%;
+}
+.Logo{
+    position: absolute;
+    top: 7%;
+}
+.header p {
+    font-family: 'Caveat Brush', cursive;
+    text-decoration: none;
+    position: absolute;
+    left: 22%;
+    font-size: 70px;
+    color: white;
+}
+.Shopping-cart{
+    position: absolute;
+    left: 93.2%;
+    bottom: 25%;
+}
+.Facebook1 {
+    position: absolute;
+    left: 91%;
+    bottom: 8%;
+}
+.Facebook1 li{
+    display: block;
+}
+.Instagram1 {
+    position: absolute;
+    left: 94%;
+    bottom: 8%;
+}
+.Twitter1 {
+    position: absolute;
+    left: 97%;
+    bottom: 8%;
+}
+.Twitter1 li{
+    display: block;
+}
+.nav {
+    position: absolute;
+    bottom: 60%;
+}
+.nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;  
+    position: relative; 
+}
+.nav ul{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+.nav ul li {
+    float: left;
+    list-style: none;
+    position: relative; 
+    left: 60%;
+}
+.nav ul li a {
+    display: block;
+    font-family: arial;
+    color: white;
+    background-color: #F04D4E;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.nav ul li ul {
+    display: none;
+    position: absolute;
+    padding: 10px;
+    border-radius: 0px 0px 8px 8px;
+}
+.nav ul li:hover ul {
+    display: block;
+    position: absolute;
+    padding: 10px;
+    right: 40%;
+    padding-right: 10px;
+    border-radius: 0px 0px 8px 8px;  
+}
+.nav ul li ul li {
+    padding: 8px 14px;
+}
+.nav ul li ul li a {
+    color: white;
+}
+.nav ul a:hover{
+    background-color: white;
+    color: #F04D4E;
+}
+.slider_image{
+    position: absolute; 
+    z-index: -1;
+    top: 42%;
+    left: 13%;
+}
+.ws_images{
+    position: absolute;
+    left: 30%;
+}
+.body-pic{
+    position: absolute;
+    left: 160px; 
+    top: 102%;
+}
+.About-pic{
+    position: absolute;
+    top: 51%;
+    left: 5%;
+    z-index: -1;
+}
+.abouttitle{
+    position: absolute;
+    top: 33%;
+    left: 3%;
+    color: #F04D4E;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 50px;
+}
+.Aboutinfo{
+    position: absolute;
+    color: #F04D4E;
+    font-family: 'Caveat Brush', cursive;
+    top: 67%;
+    left: 57%;
+    font-size: 23px;
+    padding: 8px;
+}
+.Flavortitle{
+    position: absolute;
+    top: 33%;
+    left: 3%;
+    color: #F04D4E;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 50px;
+}
+.container1 {
+    position: absolute;
+    width: 16%;
+    left: 3%;
+    top: 50%;
+}
+.image {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    top: 50%;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .container1:hover .image {
+    opacity: 0.5;
+}
+
+.container1:hover .middle {
+    opacity: 1;
+}
+.text {
+    background-color:#F04D4E;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+.Flavorname1{
+    position: absolute;
+    top: 77%;
+    left: 8%;
+    color: #F04D4E;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 40px;
+}
+.container2 {
+    position: absolute;
+    width: 16%;
+    left: 22%;
+    top: 50%;
+}
+.image2 {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    top: 50%;
+}
+.middle2 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .container2:hover .image2 {
+    opacity: 0.5;
+}
+
+.container2:hover .middle2 {
+    opacity: 1;
+}
+.text2 {
+    background-color:#F04D4E;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+.Flavorname2{
+    position: absolute;
+    top: 77%;
+    left: 27%;
+    color: #F04D4E;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 40px;
+}
+
+.container3 {
+    position: absolute;
+    width: 16%;
+    left: 41%;
+    top: 50%;
+    z-index: -1;
+}
+.image3 {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    top: 50%;
+    z-index: -1;
+}
+.middle3 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .container3:hover .image3 {
+    opacity: 0.5;
+}
+
+.container3:hover .middle3 {
+    opacity: 1;
+}
+.text3 {
+    background-color:#F04D4E;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+.Flavorname3{
+    position: absolute;
+    top: 77%;
+    left: 41%;
+    color: #F04D4E;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 40px;
+}
+
+.container4 {
+    position: absolute;
+    width: 16%;
+    left: 61%;
+    top: 50%;
+}
+.image4 {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    top: 50%;
+}
+.middle4 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .container4:hover .image4 {
+    opacity: 0.5;
+}
+
+.container4:hover .middle4 {
+    opacity: 1;
+}
+.text4 {
+    background-color:#F04D4E;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+.Flavorname4{
+    position: absolute;
+    top: 77%;
+    left: 65%;
+    color: #F04D4E;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 40px;
+}
+
+.container5 {
+    position: absolute;
+    width: 16%;
+    right: 3%;
+    top: 50%;
+}
+.image5 {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    top: 50%;
+}
+.middle5 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .container5:hover .image5 {
+    opacity: 0.5;
+}
+
+.container5:hover .middle5 {
+    opacity: 1;
+}
+.text5 {
+    background-color:#F04D4E;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+.Flavorname5{
+    position: absolute;
+    top: 77%;
+    right: 4%;
+    color: #F04D4E;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 40px;
+}
+
+.container6 {
+    position: absolute;
+    width: 16%;
+    left: 3%;
+    top: 93%;
+}
+.image6 {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    top: 50%;
+}
+.middle6 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .container6:hover .image6 {
+    opacity: 0.5;
+}
+
+.container6:hover .middle6 {
+    opacity: 1;
+}
+.text6 {
+    background-color:#F04D4E;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+.Flavorname6{
+    position: absolute;
+    top: 120%;
+    left: 5%;
+    color: #F04D4E;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 40px;
+}
+
+.container7 {
+    position: absolute;
+    width: 16%;
+    left: 22%;
+    top: 93%;
+}
+.image7 {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    top: 50%;
+}
+.middle7 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .container7:hover .image7 {
+    opacity: 0.5;
+}
+
+.container7:hover .middle7 {
+    opacity: 1;
+}
+.text7 {
+    background-color:#F04D4E;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+.Flavorname7{
+    position: absolute;
+    top: 120%;
+    left: 23.5%;
+    color: #F04D4E;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 40px;
+}
+
+.container8 {
+    position: absolute;
+    width: 16%;
+    left: 41%;
+    top: 93%;
+}
+.image8 {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    top: 50%;
+}
+.middle8 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .container8:hover .image8 {
+    opacity: 0.5;
+}
+
+.container8:hover .middle8 {
+    opacity: 1;
+}
+.text8 {
+    background-color:#F04D4E;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+.Flavorname8{
+    position: absolute;
+    top: 120%;
+    left: 39%;
+    color: #F04D4E;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 40px;
+}
+
+.container9 {
+    position: absolute;
+    width: 16%;
+    left: 61%;
+    top: 93%;
+}
+.image9 {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    top: 50%;
+}
+.middle9 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .container9:hover .image9 {
+    opacity: 0.5;
+}
+
+.container9:hover .middle9 {
+    opacity: 1;
+}
+.text9 {
+    background-color:#F04D4E;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+.Flavorname9{
+    position: absolute;
+    top: 120%;
+    left: 60%;
+    color: #F04D4E;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 40px;
+}
+.container10 {
+    position: absolute;
+    width: 16%;
+    right: 3%;
+    top: 93%;
+}
+.image10 {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    top: 50%;
+}
+.middle10 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .container10:hover .image10 {
+    opacity: 0.5;
+}
+
+.container10:hover .middle10 {
+    opacity: 1;
+}
+.text10 {
+    background-color:#F04D4E;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+.Flavorname10{
+    position: absolute;
+    top: 120%;
+    right: 1.7%;
+    color: #F04D4E;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 40px;
+}
+.container11 {
+    position: absolute;
+    width: 16%;
+    left: 3%;
+    top: 135%;
+}
+.image11 {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    top: 50%;
+}
+.middle11 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .container11:hover .image11 {
+    opacity: 0.5;
+}
+
+.container11:hover .middle11 {
+    opacity: 1;
+}
+.text11 {
+    background-color:#F04D4E;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+.Flavorname11{
+    position: absolute;
+    top: 163%;
+    left: 4%;
+    color: #F04D4E;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 40px;
+}
+.container12 {
+    position: absolute;
+    width: 16%;
+    left: 22%;
+    top: 135%;
+}
+.image12 {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    top: 50%;
+}
+.middle12 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .container12:hover .image12 {
+    opacity: 0.5;
+}
+
+.container12:hover .middle12 {
+    opacity: 1;
+}
+.text12 {
+    background-color:#F04D4E;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+.Flavorname12{
+    position: absolute;
+    top: 163%;
+    left: 21.5%;
+    color: #F04D4E;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 40px;
+}
+.container13 {
+    position: absolute;
+    width: 16%;
+    left: 41%;
+    top: 135%;
+}
+.image13 {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    top: 50%;
+}
+.middle13 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .container13:hover .image13 {
+    opacity: 0.5;
+}
+
+.container13:hover .middle13 {
+    opacity: 1;
+}
+.text13 {
+    background-color:#F04D4E;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+.Flavorname13{
+    position: absolute;
+    top: 163%;
+    left: 40%;
+    color: #F04D4E;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 40px;
+}
+.container14 {
+    position: absolute;
+    width: 16%;
+    left: 61%;
+    top: 135%;
+}
+.image14 {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    top: 50%;
+}
+.middle14 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .container14:hover .image14 {
+    opacity: 0.5;
+}
+
+.container14:hover .middle14 {
+    opacity: 1;
+}
+.text14 {
+    background-color:#F04D4E;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+.Flavorname14{
+    position: absolute;
+    top: 163%;
+    left: 64%;
+    color: #F04D4E;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 40px;
+}
+.container15 {
+    position: absolute;
+    width: 16%;
+    right: 3%;
+    top: 135%;
+}
+.image15 {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    top: 50%;
+}
+.middle15 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .container15:hover .image15 {
+    opacity: 0.5;
+}
+
+.container15:hover .middle15 {
+    opacity: 1;
+}
+.text15 {
+    background-color:#F04D4E;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+.Flavorname15{
+    position: absolute;
+    top: 163%;
+    right: 4%;
+    color: #F04D4E;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 40px;
+}
+.Ingtitle{
+    position: absolute;
+    top: 33%;
+    left: 3%;
+    color: #F04D4E;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 50px;
+}
+.Ingrepic{
+    position: absolute;
+    height: 800px;
+    left: 5%;
+    top: 50%;
+    z-index: -1;
+}
+.Inghead{
+    position: absolute;
+    left: 13%;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 65px;
+    top: 88%;
+    color: #F04D4E;
+    z-index: 1;
+}
+.Fruit{
+    position: absolute;
+    font-family: 'Caveat Brush', cursive;
+    color: #FFFFFF;
+    font-size: 18px;
+    top: 109%;
+    left: 5%;
+    background-color: #2AACE2;
+    padding: 2px 8px;
+}
+.Ingfda{
+    position: absolute;
+    left: 71%;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 65px;
+    top: 89%;
+    color: #F04D4E;
+}
+.Ingfda1{
+    position: absolute;
+    left: 56%;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 20px;
+    top: 109%;
+    color: white;
+    background-color: #2AACE2;
+    padding: 6px;
+}
+.faqtitle{
+    position: absolute;
+    top: 33%;
+    left: 3%;
+    color: #F04D4E;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 50px;
+}
+.FAQs1{
+    position: absolute;
+    color: #F04D4E;
+    top: 47%;
+    left: 3%;
+    font-size: 28px;
+    font-family: 'Caveat Brush', cursive;
+    z-index: -1;
+}
+.FAQs2{
+    position: absolute;
+    color: #2AACE2;
+    top: 52%;
+    left: 3%;
+    font-size: 28px;
+    font-family: 'Caveat Brush', cursive;
+    z-index: -1;
+}
+.FAQs3{
+    position: absolute;
+    color: #F04D4E;
+    top: 60%;
+    left: 3%;
+    font-size: 28px;
+    font-family: 'Caveat Brush', cursive;
+    z-index: -1;
+}
+.FAQs4{
+    position: absolute;
+    color: #2AACE2;
+    top: 65%;
+    left: 3%;
+    font-size: 28px;
+    font-family: 'Caveat Brush', cursive;
+    z-index: -1;
+}
+.FAQs5{
+    position: absolute;
+    color: #F04D4E;
+    top: 73%;
+    left: 3%;
+    font-size: 28px;
+    font-family: 'Caveat Brush', cursive;
+    z-index: -1;
+}
+.FAQs6{
+    position: absolute;
+    color: #2AACE2;
+    top: 78%;
+    left: 3%;
+    font-size: 28px;
+    font-family: 'Caveat Brush', cursive;
+    z-index: -1;
+}
+.FAQs7{
+    position: absolute;
+    color: #F04D4E;
+    top: 86%;
+    left: 3%;
+    font-size: 28px;
+    font-family: 'Caveat Brush', cursive;
+    z-index: -1;
+}
+.FAQs8{
+    position: absolute;
+    color: #2AACE2;
+    top: 91%;
+    left: 3%;
+    font-size: 28px;
+    font-family: 'Caveat Brush', cursive;
+    z-index: -1;
+}
+.FAQs9{
+    position: absolute;
+    color: #F04D4E;
+    top: 99%;
+    left: 3%;
+    font-size: 28px;
+    font-family: 'Caveat Brush', cursive;
+    z-index: -1;
+}
+.FAQs10{
+    position: absolute;
+    color: #2AACE2;
+    top: 104%;
+    left: 3%;
+    font-size: 28px;
+    font-family: 'Caveat Brush', cursive;
+    z-index: -1;
+}
+.FAQs11{
+    position: absolute;
+    color: #F04D4E;
+    top: 117%;
+    left: 3%;
+    font-size: 28px;
+    font-family: 'Caveat Brush', cursive;
+    z-index: -1;
+}
+.FAQs12{
+    position: absolute;
+    color: #2AACE2;
+    top: 122%;
+    left: 3%;
+    font-size: 28px;
+    font-family: 'Caveat Brush', cursive;
+    z-index: -1;
+}
+.FAQs13{
+    position: absolute;
+    color: #F04D4E;
+    top: 130%;
+    left: 3%;
+    font-size: 28px;
+    font-family: 'Caveat Brush', cursive;
+    z-index: -1;
+}
+.FAQs14{
+    position: absolute;
+    color: #2AACE2;
+    top: 135%;
+    left: 3%;
+    font-size: 28px;
+    font-family: 'Caveat Brush', cursive;
+    z-index: -1;
+}
+.contacttitle{
+    position: absolute;
+    top: 33%;
+    left: 3%;
+    color: #F04D4E;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 50px;
+}
+.Contact-info2{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    left: 72%;
+    top: 48%;
+    text-align: right;
+    font-size: 20px;
+}
+.Contact-info3{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    right: 81%;
+    top: 48%;
+    text-align: left;
+    font-size: 27px; 
+}
+.Contact-info4{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    top: 65%;
+    text-align: left;
+    font-size: 17px; 
+    left: 3%;
+}
+.Map{
+    position: absolute;
+    left: 60%;
+    top: 79%;
+}
+.footer{
+    background-color: #A4D066;
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    margin-top: 80%;
+}
+.flogo{
+    position: absolute;
+    top: 5%;
+}
+.Facebook {
+    position: absolute;
+    top: 60%;
+    left: 3px;
+}
+.Facebook li{
+    display: block;
+}
+.Instagram {
+    position: absolute;
+    left: 53px;
+    top: 60%;
+}
+.Twitter {
+    position: absolute;
+    left: 107px;
+    top: 60%;
+}
+.Twitter li{
+    display: block;
+}
+.navfooter {
+    position: absolute;
+    bottom: 60%;
+}
+.navfooter a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 110px;
+    text-decoration: none;  
+    position: relative; 
+}
+.navfooter ul{
+    float: right;
+    right: 43%;
+    list-style: none;
+    position: relative;
+}
+.navfooter ul li {
+    float: left;
+    list-style: none;
+    position: relative; 
+    left: 60%;
+}
+.navfooter ul li a {
+    display: block;
+    font-family: arial;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    margin-left: -80px;
+}
+.navfooter ul a:hover{
+    color: #F04D4E;
+}
+.Contact-info{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    left: 15%;
+    bottom: 15%;
+}
+.Payment{
+    position: absolute;
+    left: 83%;
+    bottom: 8%;
+}
+.copyrightb{
+    background-color: #F04D4E;;
+    position: absolute;
+    height: 8%;
+    width: 100%;
+    margin-top: 100%;
+}
+.copyright{
+    color: #FFFFFF;
+    position: absolute;
+    margin-top: 100.5%;
+    z-index: 1;
+    left: 15%;
+}
+  
+
+.container{
+    animation: transitionIn 0.75s;
+}
+@keyframes transitionIn{
+    from {
+        opacity: 0;
+        transform: rotateX('-10deg');
+    }
+    to {
+        opacity: 1;
+        transform: rotateX('0');
+    }
+}
